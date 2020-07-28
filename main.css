@@ -6,6 +6,7 @@ body {
     margin: 0;   
     padding-left: 80px;
     padding-right: 80px;
+    cursor: url('SPADE_CURSOR.png'), default;
 }
 
 header {
