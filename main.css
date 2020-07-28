@@ -4,14 +4,24 @@ body {
     font-family: sans-serif;
     font-style: normal;
     margin: 0;   
-    padding: 0;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 header {
     background: black;
-    display: inline-flexbox;
+    display: flexbox;
     margin: 0px;  
     text-align: right;
+    padding-bottom: 50px;
+}
+
+header img {
+    padding-top:30px;
+    padding-left: -40px;
+    padding-right: 1000px;
+    height: 44px;
+    width: 250px;
 }
 
 h1 {
@@ -27,8 +37,18 @@ section {
     display: flex;
 }
 
+.container-2 {
+    display: flex;
+}
+
 .container-1 div {
     padding: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.container-2 div {
+    padding-top: 40px;
     padding-bottom: 40px;
     text-align: center;
 }
@@ -59,17 +79,15 @@ section {
 p {
     text-align: center;
 }
-nav ul {
-    background: black;
-    margin: 0;
-    padding: 0;
+
+ul {
     list-style-type: none;
     text-align: right;
 }
 
-nav li {
+li {
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 20px;
     
 }
 
