@@ -1,6 +1,6 @@
 body {
-    background: black;
-    color: white;
+    background: whitesmoke;
+    color: black;
     font-family: sans-serif;
     font-style: normal;
     margin: 0;   
@@ -9,7 +9,6 @@ body {
 }
 
 header {
-    background: black;
     display: flexbox;
     margin: 0px;  
     text-align: right;
@@ -27,10 +26,6 @@ header img {
 h1 {
     text-align: center;
     padding: 50px;
-}
-
-section {
-    background: black;
 }
 
 .container-1 {
@@ -88,12 +83,12 @@ ul {
 li {
     display: inline-block;
     margin-right: 20px;
-    
+    font-size: medium;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 a:hover {
@@ -101,7 +96,6 @@ a:hover {
 }
 
 footer {
-    background: black;
     padding: 20px 20px;
     text-align: center;
 }
