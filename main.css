@@ -9,9 +9,44 @@ body {
 
 header {
     background: black;
-    display: inline;
+    display: inline-flexbox;
     margin: 0px;  
-    text-align: left;
+    text-align: right;
+}
+
+h1 {
+    text-align: center;
+    padding: 50px;
+}
+
+section {
+    background: black;
+}
+
+.container-1 {
+    display: flex;
+}
+
+.container-1 div {
+    padding: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.box-1{
+    flex:1;
+}
+
+.box-2{
+    flex:1;
+}
+
+.box-3{
+    flex:1;
+}
+
+.box-4{
+    flex:1;
 }
 
 .feature-image img {
@@ -21,15 +56,9 @@ header {
     box-align: center;
 }
 
-hr {
-    display: flex;
-    height: 2px;
-    border: 0;
-    border-top: 0.5px solid whitesmoke;
-    margin: 1em 0;
-    padding: 0;
+p {
+    text-align: center;
 }
-
 nav ul {
     background: black;
     margin: 0;
@@ -41,44 +70,8 @@ nav ul {
 nav li {
     display: inline-block;
     margin-right: 50px;
+    
 }
-section {
-    background: black;
-}
-
-.feature img {
-    display: inline;
-    background-color: red;
-}
-
-.feature-box div{
-    background: black;
-    width: 100%;
-    margin: 2px;
-}
-
-.feature-box.header div{
-    text-align: center;
-    font-size: 35px;
-    padding-top: 50px;
-    padding-bottom: 40px;
-}
-
-.feature-box.subheader div{
-    color: rgb(190, 185, 185);
-    font-size: 25px;
-    padding-bottom: 30px;
-    padding-right: 10px;
-    text-align: center;
-    font-display: inline-flex;
-}
-
-.feature-box.content div{
-    color: rgb(190, 185, 185);
-    font-size: 25px;
-    padding-bottom: 30px;
-    padding-right: 10px;
-    text-align: center;
 
 a {
     text-decoration: none;
@@ -88,6 +81,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 footer {
     background: black;
     padding: 20px 20px;
