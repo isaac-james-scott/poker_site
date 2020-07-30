@@ -9,6 +9,14 @@ body {
     cursor: url('SPADE_CURSOR.png'), default;
 }
 
+audio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 50px;
+}
+
 header {
     display: flexbox;
     margin: 0px;  
