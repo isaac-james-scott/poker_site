@@ -46,8 +46,7 @@ h1 {
 }
 
 .container-1 div {
-    padding: 10px;
-    padding-bottom: 40px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -59,6 +58,7 @@ h1 {
 
 .box-1{
     flex:1;
+    padding-bottom: 5px;
 }
 
 .box-2{
@@ -71,6 +71,14 @@ h1 {
 
 .box-4{
     flex:1;
+}
+
+.positive{
+    background-color: rgb(108, 182, 35);
+}
+
+.negative{
+    background-color: rgb(214, 45, 45);
 }
 
 .feature-image img {
